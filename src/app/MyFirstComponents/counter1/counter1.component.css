@@ -1,0 +1,9 @@
+.abc {
+    display: flex;
+    align-items: center;
+    margin: 10% 20%;
+}
+
+.abc .container1 {
+    margin-right: 100px;
+}

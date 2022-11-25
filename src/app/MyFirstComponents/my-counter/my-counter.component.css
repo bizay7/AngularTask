@@ -1,0 +1,59 @@
+.container {
+    align-items: center;
+}
+
+.container .btns {
+    align-items: center;
+    display: flex;
+    margin-left: 38%;
+    margin-top: 5vh;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.container h2 {
+    background-color: rgb(171, 171, 214);
+    width: fit-content;
+    margin-left: 40%;
+    margin-top: 5vh;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.container h2:hover {
+    background-color: aqua;
+}
+
+.container .result {
+    background-color: rgb(105, 204, 96);
+    width: 20vh;
+    height: 20vh;
+    color: rgb(73, 7, 7);
+    border-radius: 10px;
+    border: 10px solid brown;
+    align-self: center;
+    align-items: center;
+    margin-left: 41.5%;
+    margin-top: 5vh;
+    border-radius: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+
+}
+
+.container .result h1 {
+    align-self: center;
+    margin: 10px;
+}

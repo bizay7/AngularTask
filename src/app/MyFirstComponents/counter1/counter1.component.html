@@ -1,0 +1,18 @@
+<div class="abc">
+    <span class="container1">
+        <h1>Counter-1</h1>
+        <h3>Enter Something</h3>
+        <input type="text" placeholder="Enter..." [(ngModel)]="textInput1"> <br>
+        <button class="btn btn-secondary" (click)="counter1('Submit')"> &nbsp;Submit&nbsp;</button> &nbsp;
+        <h2>----------------</h2> <br>
+        <h2>{{textInput2}}</h2>
+        <h2>----------------</h2>
+        <label>Counter-2 Input</label>
+        <h2>{{textInput3}}</h2>
+        <h2>----------------</h2>
+    </span>
+
+    <span class="container2">
+        <app-counter2 (textEvent2)="receiveText2($event)" [oneToTwo]="oneToTwo"></app-counter2>
+    </span>
+</div>
